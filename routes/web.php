@@ -7,5 +7,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', ['name' => 'zulhusni']); // Send data array to view about
+});
+
+Route::get('/blog', function () {
+    return view('blog');
 });
