@@ -10,9 +10,7 @@
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/blog">Blog</a>
-    
-    <h1>Home Page</h1>
+    <h1>Blog Page</h1>
 
-    <script src="js/script.js"></script>
 </body>
 </html>
