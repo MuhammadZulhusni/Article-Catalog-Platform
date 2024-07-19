@@ -20,7 +20,7 @@ This is a blog system built using the Laravel framework. It includes features su
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/zulhusni2003/laravel-blog-system.git
+git clone https://github.com/MuhammadZulhusni/laravel-blog-system.git
 ```
 
 ```bash
