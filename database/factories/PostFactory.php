@@ -18,10 +18,10 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => fake()->sentence(),
-            'author' => fake()->name(),
-            'slug' => Str::slug(fake()->sentence()),
-            'body' => fake()->text()
+            'title' => fake()->sentence(), // Generates a fake sentence for the title
+            'author' => fake()->name(), // Generates a fake name for the author
+            'slug' => Str::slug(fake()->sentence()), // Generates a slug from a fake sentence
+            'body' => fake()->text() // Generates fake text for the body
         ];
     }
 }
