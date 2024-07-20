@@ -20,10 +20,7 @@ Route::get('/posts ', function () {
 
 // Route to post, means lepas user clik 'read more' it will go to other page based on ID
 // Instead of using ID, nk guna slug pun blh
-Route::get('/posts/{slug}', function($slug) {
-   
-    // Find class Post.php
-   $post = Post::find($slug);
+Route::get('/posts/{post:slug}', function( Post $post) {
 
    return view('post', ['title' => 'Single Post', 'post' => $post]);
 });
