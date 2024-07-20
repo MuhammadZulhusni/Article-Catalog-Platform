@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\Post;
-use Illuminate\Support\Arr;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -21,10 +21,18 @@ Route::get('/posts ', function () {
 // Route to post, means lepas user clik 'read more' it will go to other page based on ID
 // Instead of using ID, nk guna slug pun blh
 Route::get('/posts/{post:slug}', function( Post $post) {
-
    return view('post', ['title' => 'Single Post', 'post' => $post]);
+});
+
+Route::get('/authors/{user}', function(User $user) {
+    return view('posts', [
+        'title' => 'Articles by ' . $user->name, 
+        'posts' => $user->posts
+    ]);
 });
 
 Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact Page']);
 });
+
+ 

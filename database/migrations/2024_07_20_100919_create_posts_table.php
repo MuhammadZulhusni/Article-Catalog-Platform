@@ -14,11 +14,18 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('author');
+            $table->foreignId('author_id')->constrained(
+                table: 'users', 
+                indexName: 'posts_user_id'
+            );
+            // Defines a foreign key on the 'author_id' column, referencing the 'id' column on the 'users' table and naming the index 'posts_user_id'
             $table->string('slug')->unique();
             $table->text('body');
             $table->timestamps(); //Default akan tambah created_at and updated_at column
         });
+        
+        // Primary Key: The 'id' column in the 'users' table is the primary key. 
+        // Foreign Key: The 'author_id' column is a foreign key in the 'posts' table. It references the id column in the users table.
     }
 
     /**
