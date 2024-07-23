@@ -31,11 +31,6 @@ class DatabaseSeeder extends Seeder
         //     'remember_token' => Str::random(10)
         // ]);
 
-        // Category::create([
-        //     'name' => 'Web Design',
-        //     'slug' => 'web-design',
-        // ]);
-
         // Post::create([
         //     'title' => 'Article 1',
         //     'author_id' => '1',
@@ -54,11 +49,38 @@ class DatabaseSeeder extends Seeder
             'remember_token' => Str::random(10)
         ]);
 
+        $category1 = Category::create([
+            'name' => 'Web Design',
+            'slug' => 'web-design',
+            'color' => 'blue'
+        ]);
+
+        $category2 = Category::create([
+            'name' => 'UIUX',
+            'slug' => 'ui-ux',
+            'color' => 'yellow'
+        ]);
+
+        $category3 = Category::create([
+            'name' => 'Cloud Computing',
+            'slug' => 'cloud-computing',
+            'color' => 'red'
+        ]);
+
+        $category4 = Category::create([
+            'name' => 'Data Structure',
+            'slug' => 'datastructure',
+            'color' => 'green'
+        ]);
+
+        // Collect all created categories
+        $categories = collect([$category1, $category2, $category3, $category4]);
+
         // Ni aku gabungkan semua table kat sini untuk seed data
         // Ni kalau nk secara auto, nnti just run command ni je, dia akan migrate and seed data
         // php artisan migrate:fresh --seed
         Post::factory(100)->recycle([
-            Category::factory(3)->create(),
+            $categories, // Use the collected categories here
             $zul,
             User::factory(5)->create()
         ])->create();
