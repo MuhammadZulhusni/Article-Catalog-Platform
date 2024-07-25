@@ -17,17 +17,13 @@ Route::get('/about', function () {
 
 // Route posts mean 'blog page'
 Route::get('/posts ', function () {  // Call class 'Post'
-    $posts = Post::latest();
     // Setkan variable sbb nk sorting blog yg latest duduk kt atas dlu & solve lazy loading to eager loading using 'with()', Queries akan lebih berkurang if using this method
     // $posts = Post::with(['author', 'category'])->latest()->get(); 
 
     // Ni nk check seacrhing dh dpt GET data ke belum bila tekan search button
     // dump(request('search'));
-    if(request('search')) {
-        $posts->where('title', 'like', '%' . request('search') . '%');
-    }
 
-    return view('posts', ['title' => 'Blog Page', 'posts' => $posts->get()]); 
+    return view('posts', ['title' => 'Blog Page', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->get()]); 
 });
 
 // Route to post, means lepas user clik 'read more' it will go to other page based on ID
