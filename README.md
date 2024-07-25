@@ -1,12 +1,6 @@
 # Laravel Blog System
 
-This is a blog system built using the Laravel framework. It includes features such as post creation, editing, deletion, and a commenting system.
-
-## Features
-
-- Create, read, update, and delete blog posts
-- Commenting system
-- Responsive design
+This is a blog system built using the Laravel framework. 
 
 ## Requirements
 
