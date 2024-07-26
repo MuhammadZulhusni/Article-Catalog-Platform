@@ -23,7 +23,7 @@ Route::get('/posts ', function () {  // Call class 'Post'
     // Ni nk check seacrhing dh dpt GET data ke belum bila tekan search button
     // dump(request('search'));
 
-    return view('posts', ['title' => 'Blog Page', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->get()]); 
+    return view('posts', ['title' => 'Blog Page', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->paginate(9)]); 
 });
 
 // Route to post, means lepas user clik 'read more' it will go to other page based on ID
