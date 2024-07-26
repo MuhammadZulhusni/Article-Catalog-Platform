@@ -12,7 +12,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about', ['name' => 'zulhusni', 'title' => 'About Page']); // Send data array to view 'about'
+    return view('about', ['title' => 'About Page']); // Send data array to view 'about'
 });
 
 // Route posts mean 'blog page'

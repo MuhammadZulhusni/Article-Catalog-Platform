@@ -21,5 +21,6 @@
     </div>
   </main>
 </div>
+<x-footer></x-footer> <!-- Panggil components footer.blade.php -->
 </body>
 </html>
