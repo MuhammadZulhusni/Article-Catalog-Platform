@@ -1,5 +1,7 @@
 <div class="py-12 px-4 mx-auto max-w-screen-lg">
-  <h2 class="mb-6 text-4xl font-extrabold text-gray-900 dark:text-white text-center">Contact Us</h2>
+  <h1 class="mb-6 text-center text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent whitespace-nowrap drop-shadow-lg uppercase">
+    Contact Us
+  </h1>
   <p class="mb-12 text-gray-500 dark:text-gray-400 text-center sm:text-lg">
     We'd love to hear from you! Here's how you can get in touch with us.
   </p>

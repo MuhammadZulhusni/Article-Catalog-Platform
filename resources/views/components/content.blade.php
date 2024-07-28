@@ -9,6 +9,9 @@
     </div>
 </div>
 
+  <!-- Divider Line -->
+  <div class="my-8 mx-auto w-2/3 h-px bg-gray-400"></div>
+
 <div class="gap-16 items-center py-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:px-6">
   <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 lg:order-2">
     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Benefits of Having a Blog System</h2>
