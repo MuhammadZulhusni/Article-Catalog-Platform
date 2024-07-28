@@ -8,11 +8,11 @@ use Illuminate\Support\Facades\Route;
 use function Laravel\Prompts\search;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Home Page']);
+    return view('home', ['title' => 'Home']);
 });
 
 Route::get('/about', function () {
-    return view('about', ['title' => 'About Page']); // Send data array to view 'about'
+    return view('about', ['title' => 'About']); // Send data array to view 'about'
 });
 
 // Route posts mean 'blog page'
@@ -23,7 +23,7 @@ Route::get('/posts ', function () {  // Call class 'Post'
     // Ni nk check seacrhing dh dpt GET data ke belum bila tekan search button
     // dump(request('search'));
 
-    return view('posts', ['title' => 'Blog Page', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->paginate(9)]); 
+    return view('posts', ['title' => 'Blog', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->paginate(9)]); 
 });
 
 // Route to post, means lepas user clik 'read more' it will go to other page based on ID
@@ -55,7 +55,7 @@ Route::get('/categories/{category:slug}', function(Category $category) {
 });
 
 Route::get('/contact', function () {
-    return view('contact', ['title' => 'Contact Page']);
+    return view('contact', ['title' => 'Contact']);
 });
 
  

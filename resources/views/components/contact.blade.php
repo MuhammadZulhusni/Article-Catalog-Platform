@@ -1,7 +1,7 @@
 <div class="py-12 px-4 mx-auto max-w-screen-lg">
   <h2 class="mb-6 text-4xl font-extrabold text-gray-900 dark:text-white text-center">Contact Us</h2>
   <p class="mb-12 text-gray-500 dark:text-gray-400 text-center sm:text-lg">
-    We’d love to hear from you! Here’s how you can get in touch with us.
+    We'd love to hear from you! Here's how you can get in touch with us.
   </p>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
     <!-- Contact Info Item 1 -->
