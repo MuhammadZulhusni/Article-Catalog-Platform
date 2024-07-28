@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 index++;
                 setTimeout(typingEffect, 70); // Adjust the typing speed here
             } else {
-                textElement.classList.remove("typing");
                 setTimeout(startTyping, 5000); // Wait 5 seconds before restarting the animation
             }
         }
