@@ -1,6 +1,6 @@
 <div>
   <!-- Background Gradient Top -->
-  <div class="absolute inset-x-0 -top-35 -z-10 transform-gpu overflow-hidden blur-3xl " aria-hidden="true">
+  <div class="absolute inset-x-0 -top-35 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
     <div class="relative left-[calc(50%-20rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"></div>
   </div>
   
