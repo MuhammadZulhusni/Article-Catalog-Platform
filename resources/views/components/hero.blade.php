@@ -17,9 +17,5 @@
   </div>
 </div>
 
-<style>
-</style>
-
-<script>
-
-</script>
+<!-- Divider Line -->
+<div class="my-8 mx-auto w-3/4 h-px bg-gray-400"></div>

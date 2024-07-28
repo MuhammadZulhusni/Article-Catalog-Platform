@@ -6,7 +6,7 @@
     <title>Home</title>
 
     <!-- Vite assets for CSS and JS -->
-    @vite(['resources/css/hero.css', 'resources/js/hero.js', 'resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/hero.css', 'resources/js/hero.js', 'resources/css/app.css', 'resources/js/app.js', 'resources/js/about.js'])
 
     <!-- External Stylesheets -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
