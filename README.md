@@ -20,11 +20,11 @@ Article Catalog Platform is a web application for browsing and exploring a colle
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/MuhammadZulhusni/laravel-blog-system.git
+git clone https://github.com/MuhammadZulhusni/Article-Catalog-Platform.git
 ```
 
 ```bash
-cd laravel-blog-system
+cd Article-Catalog-Platform
 ```
 
 ### Step 2: Install dependencies
