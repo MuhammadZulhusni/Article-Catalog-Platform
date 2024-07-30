@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "Welcome To Blog System";
+    const text = "Welcome To Article Platform";
     const textElement = document.getElementById("animatedText");
 
     function type() {
