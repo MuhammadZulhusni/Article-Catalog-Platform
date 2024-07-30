@@ -1,6 +1,12 @@
-# Laravel Blog System
+# Article Catalog Platform
 
-This is a blog system built using the Laravel framework. 
+Article Catalog Platform is a web application for browsing and exploring a collection of articles. Users can search, filter by category, and choose articles by author. This platform provides a read-only experience for discovering and reading content.
+
+# Features
+- **Search:** Find articles using keywords.
+- **Category Filtering:** Sort articles by category.
+- **Author Selection:** Choose articles by specific authors.
+- **Read-Only:** View and read articles without editing capabilities.
 
 ## Requirements
 
