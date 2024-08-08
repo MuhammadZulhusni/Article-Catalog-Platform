@@ -45,12 +45,24 @@ cp .env.example .env
 ```bash
 php artisan key:generate
 ```
-### Step 5: Run migrations and seed the database
-```bash
-php artisan migrate --seed
+
+### Step 5: Setup database connection
+- Open the `.env` file and update the following lines with your database configuration:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_database_password
 ```
 
-### Step 6: Start the development server
+### Step 6: Run migrations and seed the database
+```bash
+php artisan migrate:fresh --seed
+```
+
+### Step 7: Start the development server
 ```bash
 php artisan serve
 ```
