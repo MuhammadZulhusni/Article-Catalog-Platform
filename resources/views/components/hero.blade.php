@@ -7,7 +7,7 @@
   <div class="mx-auto max-w-4xl lg:py-20">
     <div class="text-center">
       <h1 id="animatedText" class="text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent whitespace-nowrap drop-shadow-lg uppercase"></h1>
-      <p class="mt-6 text-lg leading-8 text-gray-600">At our blog system, we curate the best content from diverse topics to keep you informed and inspired. Explore thought-provoking articles, in-depth analyses, and fresh perspectives from writers and experts around the globe.</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">Discover and share insightful articles on our platform, where diverse voices come together to offer fresh perspectives and expert knowledge on a variety of topics.</p>
       <div class="mt-3 flex items-center justify-center gap-x-6">
         <a href="/posts" class="inline-flex items-center justify-center rounded-md border-2 border-blue-500 bg-transparent px-5 py-3 text-sm font-semibold text-blue-500 shadow-lg transition duration-150 ease-in-out hover:bg-blue-700 hover:text-white hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transform hover:-translate-y-1 my-7">
           Let's go <span aria-hidden="true" class="ml-2">→</span>
