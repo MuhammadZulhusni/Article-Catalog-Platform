@@ -5,7 +5,7 @@
     <img class="mx-auto h-10" src="https://www.svgrepo.com/show/479031/quote.svg" alt="Quote Icon">
     <figure class="mt-8">
       <blockquote class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-        <p>“Do not be embarrassed by your failures, <br> learn from them and start again.”</p>
+        <p>“Don't be discouraged by setbacks; each one is a stepping stone to a better platform. Learn, improve, and continue creating.”</p>
       </blockquote>
       <figcaption class="mt-8 flex flex-col items-center">
         <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Richard Branson">
