@@ -7,20 +7,20 @@
   <div class="mx-auto max-w-4xl lg:py-20">
     <div class="text-center">
     <h1 id="animatedText2" class="text-4xl sm:text-4xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent whitespace-nowrap drop-shadow-lg uppercase"></h1>
-      <p class="mt-6 text-lg leading-8 text-gray-600">Welcome! Here, I share my journey, experiences, and insights across various fields of interest. With a passion for learning and exploring new ideas, I aim to inspire and connect with others through thought-provoking content. Whether it's technology, lifestyle, or personal development, my goal is to provide valuable perspectives and engage with a community of curious minds.</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">Welcome to our Article Catalog Platform! Here, we curate and organize insightful content across a diverse range of topics. With a focus on quality and relevance, we aim to empower readers by providing easy access to valuable information. Whether you're looking for in-depth analysis, expert opinions, or fresh perspectives, our platform is designed to connect you with content that informs, inspires, and engages.</p>
     </div>
   </div>
 
   <!-- Divider Line -->
   <div class="my-8 mx-auto w-3/4 h-px bg-gray-400"></div>
 
-  <!-- Academic Journey Section -->
+  <!-- Platform Development Journey Section -->
   <div class="relative mx-auto max-w-4xl lg:py-20">
     <div class="text-center">
       <h2 class="text-3xl sm:text-3xl md:text-4xl tracking-tight text-gray-900 font-extrabold">
-        My Academic Journey
+        Our Development Journey
       </h2>
-      <p class="mt-4 text-lg leading-8 text-gray-700">My academic journey has been a transformative experience, marked by curiosity and a desire to deepen my understanding of the world. From my early education to my specialized studies, each step has shaped my perspective and equipped me with valuable skills. Here's an overview of the key milestones and learnings from my educational path.</p>
+      <p class="mt-4 text-lg leading-8 text-gray-700">Our journey in developing this platform has been an insightful experience, driven by a commitment to delivering high-quality content. From initial concept to final execution, each phase has played a crucial role in shaping the platform you see today. Here's an overview of the key milestones and learnings from our development process.</p>
     </div>
     <div class="relative mt-12">
       <!-- Line in the center -->
@@ -34,8 +34,8 @@
           </div>
           <div class="ml-4 pl-8 pr-4 py-4 bg-white shadow-lg rounded-lg w-full relative">
             <div class="absolute left-0 -ml-2 w-4 h-4 bg-white transform rotate-45"></div>
-            <h3 class="text-xl font-semibold text-blue-700">High School</h3>
-            <p class="mt-2 text-gray-600">Developed a strong foundation in science and mathematics, fueling my interest in technology and problem-solving.</p>
+            <h3 class="text-xl font-semibold text-blue-700">Initial Planning</h3>
+            <p class="mt-2 text-gray-600">Laid the groundwork for our platform by identifying key content areas, user needs, and the overall structure of the catalog.</p>
           </div>
         </div>
         <div class="relative flex items-center">
@@ -44,8 +44,8 @@
           </div>
           <div class="ml-4 pl-8 pr-4 py-4 bg-white shadow-lg rounded-lg w-full relative">
             <div class="absolute left-0 -ml-2 w-4 h-4 bg-white transform rotate-45"></div>
-            <h3 class="text-xl font-semibold text-blue-700">Undergraduate Studies</h3>
-            <p class="mt-2 text-gray-600">Pursued a degree in IT, deepening my knowledge in blablabla and participating in various projects and research.</p>
+            <h3 class="text-xl font-semibold text-blue-700">Development Phase</h3>
+            <p class="mt-2 text-gray-600">Built the core features of the platform, focusing on user experience, content management, and search functionality.</p>
           </div>
         </div>
         <div class="relative flex items-center">
@@ -54,11 +54,10 @@
           </div>
           <div class="ml-4 pl-8 pr-4 py-4 bg-white shadow-lg rounded-lg w-full relative">
             <div class="absolute left-0 -ml-2 w-4 h-4 bg-white transform rotate-45"></div>
-            <h3 class="text-xl font-semibold text-blue-700">Graduate School</h3>
-            <p class="mt-2 text-gray-600">Focusing on blabla, conducting advanced research and honing skills in....</p>
+            <h3 class="text-xl font-semibold text-blue-700">Ongoing Enhancements</h3>
+            <p class="mt-2 text-gray-600">Continuously improving the platform with new features and content updates to ensure a rich and engaging experience for our users.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
