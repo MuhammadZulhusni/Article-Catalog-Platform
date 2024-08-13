@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "About Me";
+    const text = "About Platform";
     const textElement = document.getElementById("animatedText2");
 
     function type() {
