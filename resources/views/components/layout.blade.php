@@ -11,7 +11,7 @@
     <!-- External Stylesheets -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="https://www.svgrepo.com/show/478768/blog-writing.svg" type="image/x-icon" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/17353/17353894.png" type="image/x-icon" />
 
     <!-- Alpine.js for reactive UI components -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
